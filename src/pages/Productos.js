@@ -6,7 +6,7 @@ const Productos = () => {
   let { search } = useLocation();
   let query = new URLSearchParams(search);
 
-  const LIMIT = 10;
+  const LIMIT = 15;
   let start = parseInt(query.get("inicio")) || 1;
   let end = parseInt(query.get("fin")) || LIMIT;
 
