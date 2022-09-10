@@ -12,7 +12,7 @@ import React from "react";
 import ReactTopics from "../pages/ReactTopics";
 import { Usuario } from "../pages/Usuario";
 
-export const ConceptosBasicos = () => {
+export const ConceptosBasicosHash = () => {
   return (
     <>
       <Switch>

@@ -76,6 +76,30 @@ function NavRouter() {
                   >
                     Contact(Redirecciones)
                   </NavLink>
+                  <NavLink
+                    exact
+                    activeClassName="bg-gray-700"
+                    className=" hover:bg-gray-700 text-white  px-3 py-2 rounded-md text-sm font-medium"
+                    to="/react"
+                  >
+                    Rutas anidadas
+                  </NavLink>
+                  <NavLink
+                    exact
+                    activeClassName="bg-gray-700"
+                    className=" hover:bg-gray-700 text-white  px-3 py-2 rounded-md text-sm font-medium"
+                    to="/login"
+                  >
+                    Login
+                  </NavLink>
+                  <NavLink
+                    exact
+                    activeClassName="bg-gray-700"
+                    className=" hover:bg-gray-700 text-white  px-3 py-2 rounded-md text-sm font-medium"
+                    to="/dashboard"
+                  >
+                    Dashboard
+                  </NavLink>
                 </div>
               </div>
             </div>
