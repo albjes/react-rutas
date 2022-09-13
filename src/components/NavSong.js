@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Transition } from "@headlessui/react";
 
-function Nav() {
+function NavSong() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
@@ -27,78 +27,6 @@ function Nav() {
                     to="/"
                   >
                     Home
-                  </NavLink>
-                  <NavLink
-                    exact
-                    activeClassName="bg-gray-700"
-                    className=" hover:bg-gray-700 text-white  px-3 py-2 rounded-md text-sm font-medium"
-                    to="/acerca"
-                  >
-                    Acerca
-                  </NavLink>
-                  <NavLink
-                    exact
-                    activeClassName="bg-gray-700"
-                    className=" hover:bg-gray-700 text-white  px-3 py-2 rounded-md text-sm font-medium"
-                    to="/contacto"
-                  >
-                    Contacto
-                  </NavLink>
-                  <NavLink
-                    exact
-                    activeClassName="bg-gray-700"
-                    className=" hover:bg-gray-700 text-white  px-3 py-2 rounded-md text-sm font-medium"
-                    to="/usuario/jesus"
-                  >
-                    Usuario
-                  </NavLink>
-                  <NavLink
-                    exact
-                    activeClassName="bg-gray-700"
-                    className=" hover:bg-gray-700 text-white  px-3 py-2 rounded-md text-sm font-medium"
-                    to="/productos"
-                  >
-                    Productos
-                  </NavLink>
-                  <NavLink
-                    exact
-                    activeClassName="bg-gray-700"
-                    className=" hover:bg-gray-700 text-white  px-3 py-2 rounded-md text-sm font-medium"
-                    to="/about"
-                  >
-                    About(Redirecciones)
-                  </NavLink>
-                  <NavLink
-                    exact
-                    activeClassName="bg-gray-700"
-                    className=" hover:bg-gray-700 text-white  px-3 py-2 rounded-md text-sm font-medium"
-                    to="/contact"
-                  >
-                    Contact(Redirecciones)
-                  </NavLink>
-                  <NavLink
-                    exact
-                    activeClassName="bg-gray-700"
-                    className=" hover:bg-gray-700 text-white  px-3 py-2 rounded-md text-sm font-medium"
-                    to="/react"
-                  >
-                    Rutas anidadas
-                  </NavLink>
-                  <NavLink
-                    exact
-                    activeClassName="bg-gray-700"
-                    className=" hover:bg-gray-700 text-white  px-3 py-2 rounded-md text-sm font-medium"
-                    to="/login"
-                  >
-                    Login
-                  </NavLink>
-                  <NavLink
-                    exact
-                    activeClassName="bg-gray-700"
-                    className=" hover:bg-gray-700 text-white  px-3 py-2 rounded-md text-sm font-medium"
-                    to="/dashboard"
-                  >
-                    Dashboard
                   </NavLink>
                 </div>
               </div>
@@ -205,4 +133,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default NavSong;
